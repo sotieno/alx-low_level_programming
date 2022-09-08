@@ -1,15 +1,15 @@
-/* Program to output with printf */
+/* Program to display with printf */
 #include <stdio.h>
 
 /**
- * main - Displays "with proper grammar, but the outcome is a piece of art,"
- * Return: Always 0 (success)
+ * main - Display "with proper grammar, but the outcome is a piece of art,"
+ * Return: Always 0 (Success)
  */
 
-/* main: Entry point */
+/* main - Entry point */
 int main(void)
 {
-        /* Display output with printf function */
-        puts("with proper grammar, but the outcome is a piece of art,");
-        return (0);
+	/* Display output with printf function */
+	printf("with proper grammar, but the outcome is a piece of art,");
+	return (0);
 }
