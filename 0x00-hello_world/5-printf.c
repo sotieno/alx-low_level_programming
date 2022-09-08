@@ -1,3 +1,4 @@
+/* Program to output with printf */
 #include <stdio.h>
 
 /*
