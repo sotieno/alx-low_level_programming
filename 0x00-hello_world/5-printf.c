@@ -1,9 +1,8 @@
 /* Program to output with printf */
 #include <stdio.h>
 
-/*
- * main  : Entry point
- * Output: "with proper grammar, but the outcome is a piece of art,\n"
+/**
+ * main -: Displays "with proper grammar, but the outcome is a piece of art,\n"
  * Return: Always 0 (success)
  */
 
