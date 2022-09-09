@@ -11,12 +11,9 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-
-	int n = rand() - RAND_MAX / 2;
-	bool isNeg = n < 0;
-	int p = n % 10;
-
 	srand(time(0));
+	int n = rand() - RAND_MAX / 2;
+	int p = n % 10;
 
 	/* Control Flow */
 	if (p > 5)
