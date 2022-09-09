@@ -15,6 +15,7 @@ int main(void)
 	srand(time(0));
 	int n = rand() - RAND_MAX / 2;
 	bool isNeg = n < 0;
+
 	if (isNeg)
 	{
 		n = n * -1;
