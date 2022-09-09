@@ -12,16 +12,14 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n, p;
-	bool isNeg = n < 0;
-
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	int n = rand() - RAND_MAX / 2;
+	bool isNeg = n < 0;
 	if (isNeg)
 	{
 		n = n * -1;
 	}
-	p = n % 10;
+	int p = n % 10;
 
 	if (isNeg)
 	{
