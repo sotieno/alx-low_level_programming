@@ -12,20 +12,24 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	srand(time(0));
+
 	int n = rand() - RAND_MAX / 2;
 	bool isNeg = n < 0;
+	int p = n % 10;
 
+	srand(time(0));
+
+	/* Control Flow */
 	if (isNeg)
 	{
 		n = n * -1;
 	}
-	int p = n % 10;
 
 	if (isNeg)
 	{
 		p = p * -1;
 	}
+
 	if (p > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, p);
