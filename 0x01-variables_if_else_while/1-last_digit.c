@@ -11,20 +11,32 @@
 int main(void)
 {
   int n, p;
+  bool isNeg = n < 0;
 
   srand(time(0));
   n = rand() - RAND_MAX / 2;
+
+  if (isNeg)
+  {
+	n = n * -1;
+  }
+
   p = n % 10;
 
-	/* Control Flow */
+  if (isNeg)
+  {
+	p = p * -1;
+  }
+
+  /* Control Flow */
   if (p > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, p);
 	}
 	else if ((p < 6) && (p != 0))
 	{
-		printf("Last digit of %d is %d and is less than 6\n", n, p);
-    printf("and not 0\n");
+		printf("Last digit of %d is %d and ", n, p);
+		printf("is less than 6 and not 0\n");
 	}
 	else
 	{
