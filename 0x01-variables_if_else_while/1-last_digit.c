@@ -1,35 +1,33 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 /**
- * main - Prints an expression that evaluates to true in the IF...ELSE and ELSE...IF control flow
+ * main - Prints an expression that evaluates to true
+ * in the IF...ELSE and ELSE...IF control flow
  * Return: 0 when main executes successfully
  */
 
 /* betty style doc for function main goes there */
 int main(void)
 {
-  int n, p;
-  bool isNeg = n < 0;
+	int n, p;
+	bool isNeg = n < 0;
 
-  srand(time(0));
-  n = rand() - RAND_MAX / 2;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (isNeg)
+	{
+		n = n * -1;
+	}
+	p = n % 10;
 
-  if (isNeg)
-  {
-	n = n * -1;
-  }
-
-  p = n % 10;
-
-  if (isNeg)
-  {
-	p = p * -1;
-  }
-
-  /* Control Flow */
-  if (p > 5)
+	if (isNeg)
+	{
+		p = p * -1;
+	}
+	if (p > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, p);
 	}
