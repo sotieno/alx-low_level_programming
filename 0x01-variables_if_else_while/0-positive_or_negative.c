@@ -17,11 +17,11 @@ int main(void)
 
 	/* IF...ELSE and ELSE...IF statement */
 	if( n > 0 )
-		return(prinf("%d is positive\n", n));
+		printf("%d is positive\n", n);
 	else if ( n == 0)
-		return(printf("%d is zero\n", n));
+		printf("%d is zero\n", n);
 	else
-		return(printf("%d is negative\n", n));
+		printf("%d is negative\n", n);
 
 	return (0);
 }
