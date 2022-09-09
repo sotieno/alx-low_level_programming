@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	p  = n%10
+	p  = n%10;
 	/* Control Flow */
 	if (p>5)
 	{
