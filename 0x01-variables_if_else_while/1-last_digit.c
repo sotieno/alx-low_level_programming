@@ -10,7 +10,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n,o;
+	int n,p;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
