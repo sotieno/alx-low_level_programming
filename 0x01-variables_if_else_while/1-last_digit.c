@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <stdbool.h>
 
 /**
  * main - Prints an expression that evaluates to true
@@ -20,16 +19,6 @@ int main(void)
 	srand(time(0));
 
 	/* Control Flow */
-	if (isNeg)
-	{
-		n = n * -1;
-	}
-
-	if (isNeg)
-	{
-		p = p * -1;
-	}
-
 	if (p > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, p);
