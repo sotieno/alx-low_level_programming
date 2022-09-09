@@ -10,13 +10,14 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n,p;
+	int n, p;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	p  = n%10;
+	p  = abs(n % 10);
+
 	/* Control Flow */
-	if (p>5)
+	if (p > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, p);
 	}
@@ -24,7 +25,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, p);
 	}
-	else if ((p<6)&&(p!=0))
+	else if ((p < 6) && (p != 0))
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 05\n", n, p);
 	}
