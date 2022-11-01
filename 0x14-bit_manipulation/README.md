@@ -1,6 +1,6 @@
 # C - Getting familiar with bit manipulation
 
-Aim of project is manipulate bits using bitwise operators in C.
+Aim of project is to manipulate bits using bitwise operators in C.
 # Files
 
 | Filename | Description |
