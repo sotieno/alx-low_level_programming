@@ -1,31 +1,6 @@
 # C - Getting familiar with bit manipulation
 
 Aim of project is manipulate bits using bitwise operators in C.
-
-# The bitwise operators:
-
-| Operator | Representation |
-| -------- | ----------- |
-|XOR| ^ |
-|OR| | |
-|AND| & |
-|LEFT SHIFT| << |
-|RIGHT SHIFT| >> |
-|NOT| ~ |
-
-
-**XOR operator - ^**
-
-**OR operator - |**
-
-**AND operator - &**
-
-**LEFT SHIFT operator - <<**
-
-**RIGHT SHIFT operator - >>**
-
-**NOT operator - ~**
-
 # Files
 
 | Filename | Description |
