@@ -14,7 +14,7 @@ Aim of project is manipulate bits using bitwise operators in C.
 
 **RIGHT SHIFT operator - >>**
 
-**NOT operator - ~**
+**NOT operator - ~.**
 
 # Files
 
