@@ -4,17 +4,17 @@ Aim of project is manipulate bits using bitwise operators in C.
 
 # The bitwise operators:
 
-**XOR OPERATOR - ^**
+**XOR operator - ^**
 
-**OR OPERATOR - |**
+**OR operator - |**
 
-**AND OPERATOR - &**
+**AND operator - &**
 
-**LEFT SHIFT OPERATOR - <<**
+**LEFT SHIFT operator - <<**
 
-**RIGHT SHIFT OPERATOR - >>**
+**RIGHT SHIFT operator - >>**
 
-**NOT OPERATOR - ~**
+**NOT operator - ~**
 
 # Files
 
