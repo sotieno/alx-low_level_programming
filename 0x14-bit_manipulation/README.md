@@ -4,6 +4,16 @@ Aim of project is manipulate bits using bitwise operators in C.
 
 # The bitwise operators:
 
+| Operator | Representation |
+| -------- | ----------- |
+|XOR| ^ |
+|OR| | |
+|AND| & |
+|LEFT SHIFT| << |
+|RIGHT SHIFT| >> |
+|NOT| ~ |
+
+
 **XOR operator - ^**
 
 **OR operator - |**
